@@ -1,0 +1,27 @@
+{
+  "name": "wrel-weather",
+  "version": "1.0.0",
+  "description": "The six o'clock codebase forecast: the Codebase Weather Report, read on the air by a 1940s radio announcer.",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Jessica Mosley (https://github.com/j-m-o/)",
+  "bin": {
+    "wrel-weather": "skills/wrel-weather/scripts/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json --noEmit",
+    "test": "node --test test/*.test.ts",
+    "demo": "node skills/wrel-weather/scripts/cli.js demo --out wrel",
+    "validate": "node scripts/validate.ts",
+    "package": "node scripts/package.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

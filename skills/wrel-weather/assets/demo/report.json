@@ -1,0 +1,755 @@
+{
+  "subject": "Storefront monorepo",
+  "asOf": "2026-11-13T22:00:00Z",
+  "weeks": [
+    "2026-10-19",
+    "2026-10-26",
+    "2026-11-02",
+    "2026-11-09"
+  ],
+  "regions": [
+    {
+      "id": "search",
+      "paths": [
+        "services/search"
+      ],
+      "condition": "sunny",
+      "level": "fair",
+      "reasons": [],
+      "readings": {
+        "commits": 11,
+        "commitsBaseline": 12,
+        "temperature": 43,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 14,
+        "humidity": 0,
+        "visibility": 84,
+        "wind": 1,
+        "daysSinceCommit": 1,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "sunny",
+          "reasons": []
+        }
+      ],
+      "headline": "Sunny. No failing or flaky tests, coverage 84%.",
+      "trend": {
+        "direction": "steady",
+        "weeks": 0,
+        "text": "Steady over the last four weeks."
+      }
+    },
+    {
+      "id": "catalog",
+      "paths": [
+        "services/catalog"
+      ],
+      "condition": "partly",
+      "level": "fair",
+      "reasons": [
+        "2 flaky tests"
+      ],
+      "readings": {
+        "commits": 10,
+        "commitsBaseline": 9.333333333333334,
+        "temperature": 42,
+        "failing": 0,
+        "flaky": 2,
+        "testFiles": 12,
+        "humidity": 17,
+        "visibility": 75,
+        "wind": 0,
+        "daysSinceCommit": 0,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "partly",
+          "reasons": [
+            "1 flaky test"
+          ]
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "partly",
+          "reasons": [
+            "1 flaky test"
+          ]
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "partly",
+          "reasons": [
+            "2 flaky tests"
+          ]
+        }
+      ],
+      "headline": "Partly cloudy. 2 flaky tests this week.",
+      "trend": {
+        "direction": "worsening",
+        "weeks": 3,
+        "text": "Worsening for 3 weeks."
+      }
+    },
+    {
+      "id": "cart",
+      "paths": [
+        "services/cart"
+      ],
+      "condition": "partly",
+      "level": "fair",
+      "reasons": [
+        "1 flaky test"
+      ],
+      "readings": {
+        "commits": 13,
+        "commitsBaseline": 13.666666666666666,
+        "temperature": 45,
+        "failing": 0,
+        "flaky": 1,
+        "testFiles": 16,
+        "humidity": 6,
+        "visibility": 80,
+        "wind": 1,
+        "daysSinceCommit": 1,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "partly",
+          "reasons": [
+            "1 flaky test"
+          ]
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "partly",
+          "reasons": [
+            "1 flaky test"
+          ]
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "partly",
+          "reasons": [
+            "1 flaky test"
+          ]
+        }
+      ],
+      "headline": "Partly cloudy. 1 flaky test this week.",
+      "trend": {
+        "direction": "worsening",
+        "weeks": 2,
+        "text": "Worsening for 2 weeks."
+      }
+    },
+    {
+      "id": "notifications",
+      "paths": [
+        "services/notifications"
+      ],
+      "condition": "sunny",
+      "level": "fair",
+      "reasons": [],
+      "readings": {
+        "commits": 6,
+        "commitsBaseline": 5,
+        "temperature": 38,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 8,
+        "humidity": 0,
+        "visibility": 73,
+        "wind": 0,
+        "daysSinceCommit": 2,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "sunny",
+          "reasons": []
+        }
+      ],
+      "headline": "Sunny. No failing or flaky tests, coverage 73%.",
+      "trend": {
+        "direction": "steady",
+        "weeks": 0,
+        "text": "Steady over the last four weeks."
+      }
+    },
+    {
+      "id": "checkout",
+      "paths": [
+        "services/checkout"
+      ],
+      "condition": "storm",
+      "level": "warning",
+      "reasons": [
+        "INC-07 open",
+        "3 failing tests",
+        "60 commits against a usual 22",
+        "3 flaky tests"
+      ],
+      "readings": {
+        "commits": 60,
+        "commitsBaseline": 22,
+        "temperature": 92,
+        "failing": 3,
+        "flaky": 3,
+        "testFiles": 17,
+        "humidity": 18,
+        "visibility": 58,
+        "wind": 2,
+        "daysSinceCommit": 0,
+        "openIncidents": [
+          "INC-07"
+        ],
+        "weekIncidents": [
+          "INC-07"
+        ]
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "partly",
+          "reasons": [
+            "1 flaky test"
+          ]
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "rain",
+          "reasons": [
+            "2 failing tests",
+            "1 flaky test"
+          ]
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "storm",
+          "reasons": [
+            "INC-06 open",
+            "3 failing tests",
+            "3 flaky tests"
+          ]
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "storm",
+          "reasons": [
+            "INC-07 open",
+            "3 failing tests",
+            "60 commits against a usual 22",
+            "3 flaky tests"
+          ]
+        }
+      ],
+      "headline": "Thunderstorms. INC-07 is open, and 3 tests are failing this week.",
+      "trend": {
+        "direction": "worsening",
+        "weeks": 3,
+        "text": "Worsening for 3 weeks."
+      }
+    },
+    {
+      "id": "payments",
+      "paths": [
+        "services/payments"
+      ],
+      "condition": "fog",
+      "level": "advisory",
+      "reasons": [
+        "line coverage 41%"
+      ],
+      "readings": {
+        "commits": 8,
+        "commitsBaseline": 8,
+        "temperature": 40,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 11,
+        "humidity": 0,
+        "visibility": 41,
+        "wind": 1,
+        "daysSinceCommit": 3,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "fog",
+          "reasons": [
+            "line coverage 43%"
+          ]
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "fog",
+          "reasons": [
+            "line coverage 42%"
+          ]
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "fog",
+          "reasons": [
+            "line coverage 41%"
+          ]
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "fog",
+          "reasons": [
+            "line coverage 41%"
+          ]
+        }
+      ],
+      "headline": "Fog. Line coverage is 41%.",
+      "trend": {
+        "direction": "steady",
+        "weeks": 0,
+        "text": "Steady over the last four weeks."
+      }
+    },
+    {
+      "id": "accounts",
+      "paths": [
+        "services/accounts"
+      ],
+      "condition": "rain",
+      "level": "warning",
+      "reasons": [
+        "2 failing tests"
+      ],
+      "readings": {
+        "commits": 10,
+        "commitsBaseline": 8,
+        "temperature": 42,
+        "failing": 2,
+        "flaky": 0,
+        "testFiles": 10,
+        "humidity": 0,
+        "visibility": 65,
+        "wind": 0,
+        "daysSinceCommit": 0,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "rain",
+          "reasons": [
+            "1 failing test"
+          ]
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "rain",
+          "reasons": [
+            "2 failing tests"
+          ]
+        }
+      ],
+      "headline": "Rain. 2 tests are failing this week.",
+      "trend": {
+        "direction": "worsening",
+        "weeks": 2,
+        "text": "Worsening for 2 weeks."
+      }
+    },
+    {
+      "id": "inventory",
+      "paths": [
+        "services/inventory"
+      ],
+      "condition": "sunny",
+      "level": "fair",
+      "reasons": [],
+      "readings": {
+        "commits": 6,
+        "commitsBaseline": 6,
+        "temperature": 38,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 9,
+        "humidity": 0,
+        "visibility": 78,
+        "wind": 0,
+        "daysSinceCommit": 1,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "sunny",
+          "reasons": []
+        }
+      ],
+      "headline": "Sunny. No failing or flaky tests, coverage 78%.",
+      "trend": {
+        "direction": "steady",
+        "weeks": 0,
+        "text": "Steady over the last four weeks."
+      }
+    },
+    {
+      "id": "recommend",
+      "paths": [
+        "services/recommend"
+      ],
+      "condition": "heat",
+      "level": "warning",
+      "reasons": [
+        "69 commits against a usual 11"
+      ],
+      "readings": {
+        "commits": 69,
+        "commitsBaseline": 11,
+        "temperature": 101,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 7,
+        "humidity": 0,
+        "visibility": 62,
+        "wind": 1,
+        "daysSinceCommit": 0,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "heat",
+          "reasons": [
+            "69 commits against a usual 11"
+          ]
+        }
+      ],
+      "headline": "Heat wave. 69 commits this week, against a usual 11.",
+      "trend": {
+        "direction": "worsening",
+        "weeks": 1,
+        "text": "Worsening for 1 week."
+      }
+    },
+    {
+      "id": "api-gateway",
+      "paths": [
+        "services/api-gateway"
+      ],
+      "condition": "wind",
+      "level": "advisory",
+      "reasons": [
+        "4 outdated dependencies"
+      ],
+      "readings": {
+        "commits": 4,
+        "commitsBaseline": 4,
+        "temperature": 36,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 6,
+        "humidity": 0,
+        "visibility": 70,
+        "wind": 4,
+        "daysSinceCommit": 4,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "wind",
+          "reasons": [
+            "4 outdated dependencies"
+          ]
+        }
+      ],
+      "headline": "Windy. 4 outdated dependencies.",
+      "trend": {
+        "direction": "steady",
+        "weeks": 0,
+        "text": "Steady over the last four weeks."
+      }
+    },
+    {
+      "id": "shipping",
+      "paths": [
+        "services/shipping"
+      ],
+      "condition": "rain",
+      "level": "warning",
+      "reasons": [
+        "1 failing test"
+      ],
+      "readings": {
+        "commits": 7,
+        "commitsBaseline": 7,
+        "temperature": 39,
+        "failing": 1,
+        "flaky": 0,
+        "testFiles": 9,
+        "humidity": 0,
+        "visibility": 70,
+        "wind": 0,
+        "daysSinceCommit": 1,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "rain",
+          "reasons": [
+            "1 failing test"
+          ]
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "rain",
+          "reasons": [
+            "1 failing test"
+          ]
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "sunny",
+          "reasons": []
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "rain",
+          "reasons": [
+            "1 failing test"
+          ]
+        }
+      ],
+      "headline": "Rain. 1 test is failing this week.",
+      "trend": {
+        "direction": "worsening",
+        "weeks": 1,
+        "text": "Worsening for 1 week."
+      }
+    },
+    {
+      "id": "admin",
+      "paths": [
+        "services/admin"
+      ],
+      "condition": "snow",
+      "level": "advisory",
+      "reasons": [
+        "no commits in 124 days"
+      ],
+      "readings": {
+        "commits": 0,
+        "commitsBaseline": 0,
+        "temperature": 32,
+        "failing": 0,
+        "flaky": 0,
+        "testFiles": 5,
+        "humidity": 0,
+        "visibility": 55,
+        "wind": 2,
+        "daysSinceCommit": 124,
+        "openIncidents": [],
+        "weekIncidents": []
+      },
+      "noReading": [],
+      "history": [
+        {
+          "week": "2026-10-19",
+          "condition": "snow",
+          "reasons": [
+            "no commits in 105 days"
+          ]
+        },
+        {
+          "week": "2026-10-26",
+          "condition": "snow",
+          "reasons": [
+            "no commits in 112 days"
+          ]
+        },
+        {
+          "week": "2026-11-02",
+          "condition": "snow",
+          "reasons": [
+            "no commits in 119 days"
+          ]
+        },
+        {
+          "week": "2026-11-09",
+          "condition": "snow",
+          "reasons": [
+            "no commits in 124 days"
+          ]
+        }
+      ],
+      "headline": "Snow. No commits in 124 days.",
+      "trend": {
+        "direction": "steady",
+        "weeks": 0,
+        "text": "Steady over the last four weeks."
+      }
+    }
+  ],
+  "featured": "checkout",
+  "counts": {
+    "warnings": 4,
+    "advisories": 3,
+    "fair": 5
+  },
+  "missing": [],
+  "problems": {},
+  "provenance": {
+    "regions": {
+      "source": "regions (demo)",
+      "fetched_at": "2026-11-13T22:00:00Z"
+    },
+    "churn": {
+      "source": "churn (demo)",
+      "fetched_at": "2026-11-13T22:00:00Z"
+    },
+    "tests": {
+      "source": "tests (demo)",
+      "fetched_at": "2026-11-13T22:00:00Z"
+    },
+    "coverage": {
+      "source": "coverage (demo)",
+      "fetched_at": "2026-11-13T22:00:00Z"
+    },
+    "incidents": {
+      "source": "incidents (demo)",
+      "fetched_at": "2026-11-13T22:00:00Z"
+    },
+    "dependencies": {
+      "source": "dependencies (demo)",
+      "fetched_at": "2026-11-13T22:00:00Z"
+    }
+  },
+  "review": {
+    "status": "pending_human_review",
+    "note": "Every reading comes from a fixed rule over the evidence listed with it."
+  }
+}

@@ -1,0 +1,80 @@
+[
+ {
+  "t0": 0,
+  "t1": 6.2,
+  "kind": "theme",
+  "segment": null
+ },
+ {
+  "t0": 6.2,
+  "t1": 21.584,
+  "kind": "voice",
+  "segment": "sign-on"
+ },
+ {
+  "t0": 22.284,
+  "t1": 24.284,
+  "kind": "chime",
+  "segment": "checkout"
+ },
+ {
+  "t0": 24.484,
+  "t1": 38.363,
+  "kind": "voice",
+  "segment": "checkout"
+ },
+ {
+  "t0": 39.063,
+  "t1": 45.285,
+  "kind": "voice",
+  "segment": "accounts"
+ },
+ {
+  "t0": 45.985,
+  "t1": 52.175,
+  "kind": "voice",
+  "segment": "shipping"
+ },
+ {
+  "t0": 52.875,
+  "t1": 63.932,
+  "kind": "voice",
+  "segment": "recommend"
+ },
+ {
+  "t0": 64.632,
+  "t1": 71.482,
+  "kind": "voice",
+  "segment": "payments"
+ },
+ {
+  "t0": 72.182,
+  "t1": 78.306,
+  "kind": "voice",
+  "segment": "admin"
+ },
+ {
+  "t0": 79.006,
+  "t1": 83.436,
+  "kind": "voice",
+  "segment": "api-gateway"
+ },
+ {
+  "t0": 84.136,
+  "t1": 94.867,
+  "kind": "voice",
+  "segment": "fair"
+ },
+ {
+  "t0": 95.566,
+  "t1": 104.951,
+  "kind": "voice",
+  "segment": "sign-off"
+ },
+ {
+  "t0": 104.951,
+  "t1": 117.951,
+  "kind": "theme",
+  "segment": null
+ }
+]
