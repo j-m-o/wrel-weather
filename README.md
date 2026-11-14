@@ -10,6 +10,11 @@ The six o'clock codebase forecast: the [Codebase Weather Report](https://github.
   <img src="docs/wrel-weather.png" width="860" alt="WREL Weather: a purple cathedral radio, the honeycomb weather map with checkout glowing gold and the storm warning for checkout on the air">
 </p>
 
+
+
+https://github.com/user-attachments/assets/982bc55b-29d8-45ba-8561-4115e85db476
+
+
 ## Why this exists
 
 A weather map is a good way to show where the risk is in a codebase. A man in a good suit announcing that a storm warning is in effect over checkout is a good way to make a room remember it.
