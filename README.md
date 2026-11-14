@@ -2,6 +2,8 @@
 
 **And now, the weather. A storm warning is in effect over checkout.**
 
+> **WREL: Weekly Risks, Evidence and Learnings.** *We Report Every Line.*
+
 The six o'clock codebase forecast: the [Codebase Weather Report](https://github.com/j-m-o/codebase-weather-report) read on the air by a 1940s radio announcer from [Release Radio](https://github.com/j-m-o/release-radio), while the map lights up the region he is talking about.
 
 [![CI](https://github.com/j-m-o/wrel-weather/actions/workflows/ci.yml/badge.svg)](https://github.com/j-m-o/wrel-weather/actions/workflows/ci.yml)
@@ -86,7 +88,7 @@ TypeScript with no runtime dependencies, like the Codebase Weather Report. The m
 
 ## Roadmap
 
-- **v1.1** A weekly forecast posted to [Slack](https://slack.com) with the broadcast attached.
+- **v1.1** Clyde's new sign-off, "This is W. R. E. L. We report every line. Good night." A weekly forecast posted to [Slack](https://slack.com) with the broadcast attached.
 - **v1.2** The ElevenLabs API as an option, so the voice is generated in the same run.
 - **v2** A PR forecast: a short bulletin for the regions one pull request touches.
 
